@@ -1,3 +1,6 @@
+import 'bootstrap/dist/css/bootstrap.css'
+import './components/styles/fonts/open-sans.css'
+import './components/styles/App.css'
 import React from 'react'
 import { Router, Route, IndexRoute, browserHistory } from 'react-router'
 import ReactDOM from 'react-dom'
@@ -13,8 +16,6 @@ import reducers from './reducers'
 import axios from 'axios'
 import { logout } from './actions/auth'
 import { loadingBarMiddleware } from 'react-redux-loading-bar'
-import 'bootstrap/dist/css/bootstrap.css'
-import 'bootstrap/dist/css/bootstrap-theme.css'
 
 es6Promise.polyfill()
 
